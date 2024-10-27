@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./../Images/Logo Project/English Logo Cropped.svg");
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #E6B98D;
+}
+.Top-Section{
+    background-image: url("./../Images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 10%;
+    overflow: hidden;
+    width: 100%;
+    height:max-content;
+}
+hr{
+    width: 90%;
+}
+header{ 
+    position: fixed;
+    text-shadow:
+        1px 1px black;
+    height: auto;
+    margin: 0 0 0 25px;
+}
+.logo{
+    width: 30%;
+    height: max-content;
+    display: inline-flex;
+}
+.logo img{
+    width: 100%;
+    margin: 5% 5%;
+}
+.Overhead-Links{
+    width: 60%;
+    float: right;
+    text-align: right;
+    margin: 1% auto;
+    white-space: nowrap;
+}
+.Overhead-Links a{
+    color: #fff;
+    text-decoration: none;
+    margin: auto 0.5%;
+    white-space: nowrap;
+    display: inline-block;
+}
+.Clear{
+    clear:both;
+}
+main{
+    text-align: center;
+    color: #0e7071;
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+    margin: 10% auto 10% auto;
+    text-shadow:
+        1px 1px white;
+}
+main h1{
+    font-size: 50px;
+}
+.Menu-Button{
+   width: 100px;
+   background-color: beige;   color: brown;
+}
+.Menu-Button a{
+    color: brown;
+    text-decoration: none;
+}
+.Body-img{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.About-sect{
+    width: 100%;
+}
+.About-us{
+    width: 80%;
+    display: block;
+    text-align: justify;
+    padding: 0% 2%;
+    margin: auto;
+}
+.About-us h2{
+    text-align: center;
+
+}
+.Location{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.Location p{
+    color: grey;
+}
+.Location img{
+    width: 80%;
+}
+.Our-team{
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+.Team1{
+    width: 40%;
+    text-align: justify;
+    float: left;
+    margin: 0 auto 20px auto;
+}
+.Team1 img{
+    width: 100%;
+}
+.Team1 h3{
+    text-align: center;
+}
+.Team2{
+    width: 40%;
+    text-align: justify;
+    float: right;
+    margin: 0 auto 20px auto;
+}
+.Team2 img{
+    width: 100%;
+}
+.Team2 h3{
+    text-align: center;
+}
+.Products{
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.Product1{
+    width: 30%;
+    display: inline-block;
+    margin: 0 1%;
+    text-align: justify;
+}
+.Product1 img{
+    width: 100%;
+}
+.Message{
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+.Message h2{
+    text-align: center;
+}
+.Message h3{
+    text-align: end;
+    margin: 0;
+}
+.Message img{
+    width: 100%;
+}
+.Offer{
+    width: 90%;
+    height: max-content;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.offer-img{
+    width: 50%;
+    float: left;
+}
+.offer-img img{
+    width: 80%;
+    margin: 1% 10%;
+}
+.offer2{
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+.offer3-img{
+    width: 50%;
+    float: right;
+}
+.offer3-img img{
+    width: 80%;
+    margin: 1% 10%;
+}
+.offer3{
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+footer{
+    background-color: #36454f;
+    width: 95%;
+    margin: auto;
+    padding: 1% 2%;
+    color: white;
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.About-end{
+    padding: 0;
+    width: 23%;
+    min-width: 200px;
+    display: inline-block;
+    text-align: justify;
+    margin: 0 auto;
+    vertical-align: top;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+footer a {
+    color: white;
+}
+.About-end ul hr{
+    border: 1px solid grey;
+}
